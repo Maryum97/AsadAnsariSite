@@ -78,7 +78,7 @@ const Footer = () => {
                     © Copyright Asad Ansari 2021
                 </div>
                 <div className='back-to-top'>
-                    <a className='back-to-top' href='#landing-page'>Back To Top</a>
+                    <a className='back-to-top' href='#page-top'>Back To Top</a>
                 </div>
             </footer>
         </div>
