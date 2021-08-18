@@ -1,0 +1,17 @@
+.section-header {
+    background-image: linear-gradient(to right, teal, rgba(0, 0, 0, 0));
+    color: white;
+    width: 55vw;
+    padding: 1%;
+    border-radius: 30px;
+}
+
+.heading {
+    font-size: 30pt;
+}
+
+@media screen and (max-width: 960px) {
+    .heading {
+        font-size: 22pt;
+    }
+}
