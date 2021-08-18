@@ -1,0 +1,70 @@
+.contact {
+    background-color: #1b054769;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-container {
+    padding: 5%;
+}
+
+.contact-card {
+    padding: 5%;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(10, 45, 121, 0.4);;
+}
+
+.contact-label {
+    font-size: 18pt;
+    font-weight: 600;
+    font-style: italic;
+    color: grey;
+    margin-top: 20px;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 2%;
+    font-size: 15pt;
+    border: 1px solid rgba(120, 120, 120, 0.4);
+}
+
+.contact-textarea {
+    min-width: 100%;
+    min-height: 20vh;
+    font-size: 15pt;
+    border: 1px solid rgba(120, 120, 120, 0.4);
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 50px;
+    padding: 2%;
+    font-size: 18pt;
+}
+
+/* Thank you message here */
+.thank-you-msg {
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    margin-top: 300px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4%;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .thank-you-msg {
+        margin-top: 200px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

@@ -1,0 +1,172 @@
+/* Navbar itself, as a whole */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: -1.7pt;
+    padding: 2%;
+    padding-bottom: 4%;
+    transition: 0.6s;
+    background-color: white;
+}
+
+.navbar.active {
+    padding: 1%;
+    height: 120px;
+    transition: 0.6s;
+    background-color: #15023a;
+}
+
+/* Navbar logo */
+.navbar-logo {
+    color: cyan;
+    font-size: 40pt;
+    padding: 1%;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.navbar-logo:hover {
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    color: white;
+    text-shadow: 0 1px 0 rgb(112, 112, 112), 0 2px 0 rgb(112, 112, 112),
+               0 3px 0 rgb(112, 112, 112), 0 4px 0 rgb(112, 112, 112),
+               0 5px 0 rgb(112, 112, 112), 0 6px 0 rgb(112, 112, 112),
+               0 7px 0 rgb(112, 112, 112), 0 8px 0 rgb(112, 112, 112),
+               0 9px 0 rgb(112, 112, 112), 0 10px 0 rgb(112, 112, 112),
+               0 11px 0 rgb(112, 112, 112), 0 12px 0 rgb(112, 112, 112),
+               0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-logo:active{
+    color: cyan;
+    transition: all 0.3s ease-out;
+}
+
+/* Navbar menu items */
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 7px;
+    list-style: none;
+    width: 90vw;
+    justify-content: end;
+    margin-right: 2rem;
+    margin-top: -45px;
+    font-size: 14pt;
+    animation-name: slideInRight;
+    animation-duration: 1.6s;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+      }
+    
+      to {
+        transform: translate3d(0, 0, 0);
+      }
+}
+
+.nav-link {
+    color: cyan;
+    font-size: 16pt;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(3, 150, 150, 0.411);
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.nav-link:active{
+    color: cyan;
+    transition: all 0.3s ease-out;
+}
+
+/* Navbar icons */
+.fa-bars, .fa-times {
+    color: cyan;
+}
+
+.menu-icon {
+    display: none;
+}
+
+
+/* media queries here */
+
+/* 1560px - just for logo */
+@media screen and (max-width:1560px) {
+    .navbar-logo {
+        font-size: 27pt;
+    }    
+}
+
+/* 970px - for most of the other elements */
+/* also to make the nav-menu disappear and show the nav-icons */
+@media screen and (max-width:970px) {
+    .navbar {
+        position: absolute;
+    }
+
+    .navbar-logo {
+        font-size: 24pt;
+        margin-right: 240px;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 166px;
+        right: -120%;
+        opacity: 1;
+        transition: all 0.5s ease; 
+    }
+
+    .nav-menu.active {
+        width: 40%;
+        right: -4%;
+        padding: 0.5%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .menu {
+        padding: 4%;
+        transition: 0.6s;
+        background-color: white;
+    }
+
+    .menu-scrolled {
+        transition: 0.6s;
+        background-color: #15023a;
+    }
+
+    .menu-icon {
+        display: flex;
+        font-size: 20pt;
+        margin-left: 355px;
+        margin-top: -37px;
+    }
+}
