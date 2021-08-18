@@ -11,25 +11,9 @@ function MainPage() {
         <div>
             <Navbar />
             <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <PageIntro />
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
-            <h1>Hi, this is the main page!</h1>
+            <div id='about'>
+                <PageIntro />
+            </div>
             <h1>Hi, this is the main page!</h1>
             <h1>Hi, this is the main page!</h1>
             <h1>Hi, this is the main page!</h1>
