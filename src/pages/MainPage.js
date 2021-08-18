@@ -2,6 +2,7 @@ import React from 'react';
 
 // import components here
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function MainPage() {
     return (
@@ -13,6 +14,7 @@ function MainPage() {
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
             <h1>Hi, this is the main page!</h1>
             <h1>Hi, this is the main page!</h1>
             <h1>Hi, this is the main page!</h1>
@@ -40,6 +42,13 @@ function MainPage() {
             <h1>Hi, this is the main page!</h1>
             <h1>Hi, this is the main page!</h1>
             <h1>Hi, this is the main page!</h1>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <Footer />
         </div>
     )
 }
