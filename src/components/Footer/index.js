@@ -11,7 +11,7 @@ import LinkedIn from '../../assets/SocialMedia/linkedin.png';
 // define styles here
 const myStyles = {
     icon: {
-        height: '40px'
+        height: '30px'
     }
 }
 
