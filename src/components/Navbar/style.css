@@ -55,7 +55,7 @@
 /* Navbar menu items */
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     grid-gap: 7px;
     list-style: none;
     width: 90vw;
@@ -64,7 +64,7 @@
     margin-top: -45px;
     font-size: 14pt;
     animation-name: slideInRight;
-    animation-duration: 3.5s;
+    animation-duration: 1.6s;
 }
 
 @keyframes slideInRight {
