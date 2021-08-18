@@ -7,6 +7,24 @@ function Awards() {
     return (
         <div className='container'>
             <Header heading='Awards'/>
+            <br></br>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
+            <h1>Content here...</h1>
         </div>
     )
 }

@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css';
 
 function Header(props) {
     return (
         <div className='section-header'>
-            <h1>{props.heading}</h1>
+            <h1 className='heading'>{props.heading}</h1>
         </div>
     )
 }
