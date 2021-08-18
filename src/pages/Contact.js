@@ -26,10 +26,11 @@ function Contact() {
     }
 
     return (
-        <div>
+        <div className='contact'>
             <div id='page-top'></div>
-            <div className='contact'>
+            <div className='contact-container'>
                 <br></br>
+                <a href='/#contact' className='back-to-main'>Back To Main</a>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -105,8 +106,8 @@ function Contact() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <Footer />
             </div>
+            <Footer />
         </div>
     )
 }
