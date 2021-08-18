@@ -1,0 +1,58 @@
+.footer-container {
+    color: cyan;
+    background-color: #15023a;
+    padding: 1%;
+    height: 150px;
+    text-align: center;
+    font-size: 14pt;
+}
+
+footer {
+    background-color: #330b83;
+    color: cyan;
+    width: 100%;
+    padding: 1.5%;
+    text-align: center;
+    font-size: 15pt;
+    /* define grid here */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    column-width: auto;
+}
+
+.social-medias {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+.back-to-top {
+    text-decoration: none;
+    color: cyan;
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1220px) {
+
+    .footer-container {
+        height: 130px;
+        padding: 3%;
+    }
+
+    footer {
+        grid-template-columns: auto;
+        font-size: 12pt;
+    }
+
+    .social-medias {
+        width: 80%;
+        font-size: 30pt;
+        margin-top: -15pt;
+    }
+}
