@@ -2,19 +2,19 @@
     color: cyan;
     background-color: #15023a;
     padding: 1%;
-    height: 150px;
+    height: 140px;
     text-align: center;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 footer {
     background-color: #330b83;
-    height: 120px;
+    height: 100px;
     color: cyan;
     width: 100%;
     padding: 1.5%;
     text-align: center;
-    font-size: 15pt;
+    font-size: 10pt;
     /* define grid here */
     display: grid;
     grid-template-columns: auto auto;

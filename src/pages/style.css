@@ -2,24 +2,37 @@
     background-color: #1b054769;
 }
 
+.back-to-main {
+    text-decoration: none;
+    color: purple;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.back-to-main:hover {
+    text-decoration: none;
+    color: blue;
+}
+
 .contact-header {
     text-align: center;
+    font-size: 24pt;
 }
 
 .contact-container {
-    padding: 5%;
+    padding: 4%;
 }
 
 .contact-card {
     padding: 5%;
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     border: 1px solid rgba(10, 45, 121, 0.4);;
 }
 
 .contact-label {
-    font-size: 18pt;
+    font-size: 13pt;
     font-weight: 600;
     font-style: italic;
     color: grey;
@@ -29,22 +42,22 @@
 .contact-input {
     width: 100%;
     padding: 2%;
-    font-size: 15pt;
+    font-size: 13pt;
     border: 1px solid rgba(120, 120, 120, 0.4);
 }
 
 .contact-textarea {
     min-width: 100%;
     min-height: 20vh;
-    font-size: 15pt;
+    font-size: 13pt;
     border: 1px solid rgba(120, 120, 120, 0.4);
 }
 
 .submit-btn {
     width: 100%;
     margin-top: 50px;
-    padding: 2%;
-    font-size: 18pt;
+    padding: 1.5%;
+    font-size: 13pt;
 }
 
 /* Thank you message here */
@@ -61,6 +74,12 @@
 }
 
 @media screen and (max-width: 960px) {
+    .contact-card {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .thank-you-msg {
         margin-top: 200px;
         width: 80%;
