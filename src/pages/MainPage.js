@@ -20,14 +20,29 @@ function MainPage() {
             </div>
             <br></br>
             <div id='business'>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <Business />
             </div>
             <br></br>
             <div id='philanthropy'>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <Philanthropy />
             </div>
             <br></br>
             <div id='awards'>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <Awards />
             </div>
             <br></br>
