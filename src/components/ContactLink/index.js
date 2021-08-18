@@ -21,7 +21,7 @@ function ContactLink() {
                 <a href='/contact'>
                     <button
                         className='btn send-msg-btn btn-primary'
-                        data-aos='flip-left'
+                        data-aos='flip-down'
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="false"
