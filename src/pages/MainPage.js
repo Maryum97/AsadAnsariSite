@@ -2,6 +2,7 @@ import React from 'react';
 
 // import components here
 import Navbar from '../components/Navbar';
+import ContactLink from '../components/ContactLink';
 import Footer from '../components/Footer';
 
 function MainPage() {
@@ -43,6 +44,8 @@ function MainPage() {
             <h1>Hi, this is the main page!</h1>
             <h1>Hi, this is the main page!</h1>
             <br></br>
+            <h1>Get in contact with me now:</h1>
+            <ContactLink />
             <br></br>
             <br></br>
             <br></br>
