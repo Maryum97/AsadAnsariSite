@@ -10,6 +10,7 @@ function MainPage() {
     return (
         <div>
             <Navbar />
+            <div id='page-top'></div>
             <br></br>
             <div id='about'>
                 <PageIntro />
