@@ -24,7 +24,14 @@ function Business() {
             <Header heading='Business' />
             <br></br>
             <br></br>
-            <p className='business-text'>Asad is the Founder and Managing Director of the following:</p>
+            <p
+                className='business-text'
+                data-aos='zoom-in'
+                data-aos-once="false"
+                data-aos-delay='100'
+            >
+                Asad is the Founder and Managing Director of the following:
+            </p>
             <div className='business-logos-grid'>
                 {/* RiskIntel */}
                 <div className='bus-grid-group'>
@@ -109,12 +116,23 @@ function Business() {
                 </div>
             </div>
             {/* Grid ends here */}
-
-            <p className='business-text'>
+            <br></br>
+            <p
+                className='business-text'
+                data-aos='fade-in'
+                data-aos-once="false"
+                data-aos-delay='100'
+            >
                 By taking proactive methods to enhance business performance, improving customer service and strengthening credibility, he has specialised in large risk and regulatory projects for clients and companies.
             </p>
             <br></br>
-            <p className='business-text'>
+            <br></br>
+            <p
+                className='business-text'
+                data-aos='fade-in'
+                data-aos-once="false"
+                data-aos-delay='100'
+            >
                 Aside from his Consultancy, Asad manages Transform Learning Academy, a Training company offering courses and consultancy in Business Analysis, Financial Crime and GDPR. Asad believes in the vast importance of diversity and the learning agenda for young professionals. He and his partners are passionate about helping individuals to upskill and build their confidence to progress their careers successfully.
             </p>
         </div>
