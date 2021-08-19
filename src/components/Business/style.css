@@ -1,0 +1,44 @@
+.business-text {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.business-logos-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .business-logos-grid {
+        grid-template-columns: auto;
+    }
+}
+
+.business-logo, .business-logo-description {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.business-logo {
+    min-height: 7vh;
+}
+
+.business-logo-description {
+    background-color: teal;
+    padding: 0.7%;
+    border-radius: 20px;
+}
+
+.bus-logo-desc-container {
+    background-color: white;
+    padding: 4%;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 400;
+    color: teal;
+    border-radius: 20px;
+}
