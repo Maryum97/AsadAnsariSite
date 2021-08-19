@@ -18,5 +18,10 @@ export const MenuItems = [
         title: 'Awards',
         url: '#awards',
         cName: 'nav-link'
+    },
+    {
+        title: 'Contact Me',
+        url: '#contact',
+        cName: 'nav-link'
     }
 ]
