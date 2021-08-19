@@ -16,7 +16,12 @@ function PhilQuotation() {
     return (
         <div className='quotation-container'>
             <div className='quotation-grid'>
-                Quotation here!
+                <div className='quot-img'>
+                    <img src={QuotImg} className='img-fluid'></img>
+                </div>
+                <div className='quot-text'>
+
+                </div>
             </div>
         </div>
     )

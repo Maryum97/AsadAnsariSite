@@ -29,6 +29,7 @@ function PhilItems() {
                     >
                         <img
                             src={Logo1}
+                            className='img-fluid'
                         ></img>
                     </div>
                     <div className='phil-logo-description'></div>
@@ -43,6 +44,7 @@ function PhilItems() {
                     >
                         <img
                             src={Logo2}
+                            className='img-fluid'
                         ></img>
                     </div>
                     <div className='phil-logo-description'></div>
@@ -57,6 +59,7 @@ function PhilItems() {
                     >
                         <img
                             src={Logo3}
+                            className='img-fluid'
                         ></img>
                     </div>
                     <div className='phil-logo-description'></div>
@@ -71,6 +74,7 @@ function PhilItems() {
                     >
                         <img
                             src={Logo4}
+                            className='img-fluid'
                         ></img>
                     </div>
                     <div className='phil-logo-description'></div>
@@ -85,6 +89,7 @@ function PhilItems() {
                     >
                         <img
                             src={Logo5}
+                            className='img-fluid'
                         ></img>
                     </div>
                     <div className='phil-logo-description'></div>
@@ -99,6 +104,7 @@ function PhilItems() {
                     >
                         <img
                             src={Logo6}
+                            className='img-fluid'
                         ></img>
                     </div>
                     <div className='phil-logo-description'></div>
