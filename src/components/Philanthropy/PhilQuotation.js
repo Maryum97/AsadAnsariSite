@@ -14,8 +14,10 @@ function PhilQuotation() {
     }, []);
 
     return (
-        <div>
-            Quotation here!
+        <div className='quotation-container'>
+            <div className='quotation-grid'>
+                Quotation here!
+            </div>
         </div>
     )
 }

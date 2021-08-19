@@ -19,8 +19,92 @@ function PhilItems() {
     }, []);
 
     return (
-        <div>
-            Items here!
+        <div className='phil-items-grid'>
+            {/* 6 cards */}
+            {/* One card starts here */}
+            <div className='phil-item-card'>
+                <div className='phil-item-container'>
+                    <div
+                        className='phil-logo'
+                    >
+                        <img
+                            src={Logo1}
+                        ></img>
+                    </div>
+                    <div className='phil-logo-description'></div>
+                </div>
+            </div>
+            {/* Card ends here */}
+            {/* One card starts here */}
+            <div className='phil-item-card'>
+                <div className='phil-item-container'>
+                    <div
+                        className='phil-logo'
+                    >
+                        <img
+                            src={Logo2}
+                        ></img>
+                    </div>
+                    <div className='phil-logo-description'></div>
+                </div>
+            </div>
+            {/* Card ends here */}
+            {/* One card starts here */}
+            <div className='phil-item-card'>
+                <div className='phil-item-container'>
+                    <div
+                        className='phil-logo'
+                    >
+                        <img
+                            src={Logo3}
+                        ></img>
+                    </div>
+                    <div className='phil-logo-description'></div>
+                </div>
+            </div>
+            {/* Card ends here */}
+            {/* One card starts here */}
+            <div className='phil-item-card'>
+                <div className='phil-item-container'>
+                    <div
+                        className='phil-logo'
+                    >
+                        <img
+                            src={Logo4}
+                        ></img>
+                    </div>
+                    <div className='phil-logo-description'></div>
+                </div>
+            </div>
+            {/* Card ends here */}
+            {/* One card starts here */}
+            <div className='phil-item-card'>
+                <div className='phil-item-container'>
+                    <div
+                        className='phil-logo'
+                    >
+                        <img
+                            src={Logo5}
+                        ></img>
+                    </div>
+                    <div className='phil-logo-description'></div>
+                </div>
+            </div>
+            {/* Card ends here */}
+            {/* One card starts here */}
+            <div className='phil-item-card'>
+                <div className='phil-item-container'>
+                    <div
+                        className='phil-logo'
+                    >
+                        <img
+                            src={Logo6}
+                        ></img>
+                    </div>
+                    <div className='phil-logo-description'></div>
+                </div>
+            </div>
+            {/* Card ends here */}
         </div>
     )
 }
