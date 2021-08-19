@@ -1,22 +1,23 @@
 .contact {
-    background-color: #1b054769;
+    background-image: linear-gradient(to top, rgba(0, 128, 128, 0.479), rgba(0, 0, 0, 0.3), #2a007ea4);
 }
 
 .back-to-main {
     text-decoration: none;
-    color: purple;
+    color: white;
     font-size: 12pt;
     font-weight: 600;
 }
 
 .back-to-main:hover {
     text-decoration: none;
-    color: blue;
+    color: #15023a;
 }
 
 .contact-header {
     text-align: center;
     font-size: 24pt;
+    color: white;
 }
 
 .contact-container {
