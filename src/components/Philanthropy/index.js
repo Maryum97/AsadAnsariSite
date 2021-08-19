@@ -1,30 +1,18 @@
 import React from 'react';
+import './style.css';
 
 // import other components here
 import Header from '../Header';
+import PhilQuotation from './PhilQuotation';
+import PhilItems from './PhilItems';
 
 function Philanthropy() {
     return (
         <div className='container'>
             <Header heading='Philanthropy'/>
             <br></br>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
-            <h1>Content here...</h1>
+            <PhilQuotation />
+            <PhilItems />
         </div>
     )
 }
