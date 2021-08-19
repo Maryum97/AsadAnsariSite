@@ -30,7 +30,7 @@ function Contact() {
             <div id='page-top'></div>
             <div className='contact-container'>
                 <br></br>
-                <a href='/#contact' className='back-to-main'><i className='fa-solid fa-arrow-left'></i>Back To Main</a>
+                <a href='/#contact' className='back-to-main'><i className='fas fa-arrow-left'></i><span>  </span>Back To Main</a>
                 <br></br>
                 <br></br>
                 <br></br>
