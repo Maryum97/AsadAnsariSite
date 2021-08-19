@@ -1,0 +1,14 @@
+/* Styles in main index */
+
+/* Styles for quotation */
+.quotation-container {
+    background-color: teal;
+    color: white;
+    padding: 4%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Styles for phil-card items */
