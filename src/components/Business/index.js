@@ -56,7 +56,7 @@ function Business() {
                         data-aos-delay="50"
                     >
                         <div className='bus-logo-desc-container'>
-                            RiskIntel is an organisation that utilises AI to protect client pain-points, whether related to business, reputational, finances, etc. from operational, cyber, and regulatory risks in order to gain competitive advantage.
+                            <b>RiskIntel</b> is an organisation that utilises AI to protect client pain-points, whether related to business, reputational, finances, etc. from operational, cyber, and regulatory risks in order to gain competitive advantage.
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ function Business() {
                         data-aos-delay="50"
                     >
                         <div className='bus-logo-desc-container'>
-                            Mayfair IT Consultancy is an organisation located within Birmingham, managed and directed by Asad himself. It allows for recruitment of IT experts and consultants for personal or business related ventures.
+                            <b>Mayfair IT Consultancy</b> is an organisation located within Birmingham, managed and directed by Asad himself. It allows for recruitment of IT experts and consultants for personal or business related ventures.
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ function Business() {
                         data-aos-delay="50"
                     >
                         <div className='bus-logo-desc-container'>
-                            AccrediNation is an organisation that provides over a decade of experience in IT services, training, transformation, consulting, and outsourcing. It has worked and built strong relationships with several companies globally.
+                            <b>AccrediNation</b> is an organisation that provides over a decade of experience in IT services, training, transformation, consulting, and outsourcing. It has worked and built strong relationships with several companies globally.
                         </div>
                     </div>
                 </div>
