@@ -1,4 +1,37 @@
 /* Styles in main index */
+.phil-text-container {
+    background-color: teal;
+    padding: 0.7%;
+    border-radius: 300px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phil-text {
+    background-color: white;
+    padding: 16%;
+    border-radius: 300px;
+    text-align: center;
+    font-size: 18pt;
+    color: teal;
+}
+
+.philanthropy-text {
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:960px) {
+    .phil-text-container {
+        width: 60%;
+    }
+
+    .phil-text {
+        font-size: 14pt;
+    }
+}
 
 /* Styles for quotation */
 .quotation-container {
