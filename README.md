@@ -12,13 +12,21 @@ This project was successfully completed within 2 months, and the webpage was dep
 ![Asad-Webpage-Demo-(local)](https://user-images.githubusercontent.com/73832871/130232718-67011554-2f15-4fdb-9e99-24fee7dcd659.gif)
 
 <br>
-You can find the deployed website from the link below:
+You can find the deployed website at the link below:
 <br>
 <a href='https://asadansari.herokuapp.com/' target='_blank'>Asad Aamir Ansari Personal Profile</a>
 
 ## About The App
 
 This application contains all the professional information about Asad Ansari, including his business, philanthropy, awards and achievements throughout his career. You can get in contact with Asad using the link to his contact form within the app itself, or check out the links to his social media sites.
+
+The app has been created successfully using the following technologies:
+ - React
+ - Bootstrap
+ - Font Awesome icons
+ - Aos animations
+ - Framer Motion animations
+ - React-dom for page rendering
 
 ## How To Use This App
 
@@ -29,9 +37,14 @@ In order to view, edit or market this application through your personal machine,
 3. Open from file explorer in VS Code
 4. Open the local terminal in VS Code
 5. Run the following commands in the terminal:
+<br>
+
+> // to install all the technologies and dependencies for this app
 
 > npm install
 <br>
+
+> // to render the app locally in the browser
 
 > npm start
 <br>
