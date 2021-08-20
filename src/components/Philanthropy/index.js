@@ -45,6 +45,9 @@ function Philanthropy() {
             >
                 His other philanthropic works include the following:
             </p>
+            <br></br>
+            <br></br>
+            <br></br>
             <PhilItems />
         </div>
     )

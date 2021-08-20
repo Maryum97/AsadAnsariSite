@@ -19,98 +19,106 @@ function PhilItems() {
     }, []);
 
     return (
-        <div className='phil-items-grid'>
-            {/* 6 cards */}
-            {/* One card starts here */}
-            <div className='phil-item-card'>
-                <div className='phil-item-container'>
-                    <div
-                        className='phil-logo'
-                    >
-                        <img
-                            src={Logo1}
-                            className='img-fluid'
-                        ></img>
+        <div className='phil-items-container'>
+            <div className='phil-items-grid'>
+                {/* 6 cards */}
+                {/* One card starts here */}
+                <div className='phil-item-card'>
+                    <div className='phil-item-container'>
+                        <div
+                            className='phil-logo'
+                        >
+                            <img
+                                src={Logo1}
+                                className='img-fluid phil-item-logo'
+                            ></img>
+                        </div>
+                        <div className='phil-logo-description'></div>
                     </div>
-                    <div className='phil-logo-description'></div>
                 </div>
-            </div>
-            {/* Card ends here */}
-            {/* One card starts here */}
-            <div className='phil-item-card'>
-                <div className='phil-item-container'>
-                    <div
-                        className='phil-logo'
-                    >
-                        <img
-                            src={Logo2}
-                            className='img-fluid'
-                        ></img>
+                {/* Card ends here */}
+                <div></div>
+                <div></div>
+                {/* One card starts here */}
+                <div className='phil-item-card'>
+                    <div className='phil-item-container'>
+                        <div
+                            className='phil-logo'
+                        >
+                            <img
+                                src={Logo2}
+                                className='img-fluid phil-item-logo'
+                            ></img>
+                        </div>
+                        <div className='phil-logo-description'></div>
                     </div>
-                    <div className='phil-logo-description'></div>
                 </div>
-            </div>
-            {/* Card ends here */}
-            {/* One card starts here */}
-            <div className='phil-item-card'>
-                <div className='phil-item-container'>
-                    <div
-                        className='phil-logo'
-                    >
-                        <img
-                            src={Logo3}
-                            className='img-fluid'
-                        ></img>
+                {/* Card ends here */}
+                {/* One card starts here */}
+                <div className='phil-item-card'>
+                    <div className='phil-item-container'>
+                        <div
+                            className='phil-logo'
+                        >
+                            <img
+                                src={Logo3}
+                                className='img-fluid phil-item-logo'
+                            ></img>
+                        </div>
+                        <div className='phil-logo-description'></div>
                     </div>
-                    <div className='phil-logo-description'></div>
                 </div>
-            </div>
-            {/* Card ends here */}
-            {/* One card starts here */}
-            <div className='phil-item-card'>
-                <div className='phil-item-container'>
-                    <div
-                        className='phil-logo'
-                    >
-                        <img
-                            src={Logo4}
-                            className='img-fluid'
-                        ></img>
+                {/* Card ends here */}
+                <div></div>
+                <div></div>
+                {/* One card starts here */}
+                <div className='phil-item-card'>
+                    <div className='phil-item-container'>
+                        <div
+                            className='phil-logo'
+                        >
+                            <img
+                                src={Logo4}
+                                className='img-fluid phil-item-logo'
+                            ></img>
+                        </div>
+                        <div className='phil-logo-description'></div>
                     </div>
-                    <div className='phil-logo-description'></div>
                 </div>
-            </div>
-            {/* Card ends here */}
-            {/* One card starts here */}
-            <div className='phil-item-card'>
-                <div className='phil-item-container'>
-                    <div
-                        className='phil-logo'
-                    >
-                        <img
-                            src={Logo5}
-                            className='img-fluid'
-                        ></img>
+                {/* Card ends here */}
+                {/* One card starts here */}
+                <div className='phil-item-card'>
+                    <div className='phil-item-container'>
+                        <div
+                            className='phil-logo'
+                        >
+                            <img
+                                src={Logo5}
+                                className='img-fluid phil-item-logo'
+                            ></img>
+                        </div>
+                        <div className='phil-logo-description'></div>
                     </div>
-                    <div className='phil-logo-description'></div>
                 </div>
-            </div>
-            {/* Card ends here */}
-            {/* One card starts here */}
-            <div className='phil-item-card'>
-                <div className='phil-item-container'>
-                    <div
-                        className='phil-logo'
-                    >
-                        <img
-                            src={Logo6}
-                            className='img-fluid'
-                        ></img>
+                {/* Card ends here */}
+                <div></div>
+                <div></div>
+                {/* One card starts here */}
+                <div className='phil-item-card'>
+                    <div className='phil-item-container'>
+                        <div
+                            className='phil-logo'
+                        >
+                            <img
+                                src={Logo6}
+                                className='img-fluid phil-item-logo'
+                            ></img>
+                        </div>
+                        <div className='phil-logo-description'></div>
                     </div>
-                    <div className='phil-logo-description'></div>
                 </div>
+                {/* Card ends here */}
             </div>
-            {/* Card ends here */}
         </div>
     )
 }
