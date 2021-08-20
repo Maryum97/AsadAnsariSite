@@ -11,10 +11,17 @@
 }
 
 .send-msg-btn {
-    width: 70%;
+    width: 60%;
     margin-top: 50px;
     padding: 3%;
-    font-size: 18pt;
+    font-size: 20pt;
     transform: rotate(-270deg);
     transition: 1s;
+}
+
+@media screen and (max-width:960px) {
+    .send-msg-btn {
+        font-size: 15pt;
+        padding: 5%;
+    }
 }
