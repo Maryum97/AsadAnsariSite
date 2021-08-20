@@ -1,5 +1,5 @@
 .contact {
-    background-image: linear-gradient(to top, rgba(0, 128, 128, 0.479), rgba(0, 0, 0, 0.3), #2a007ea4);
+    background-image: linear-gradient(to top, teal, #15023a, teal, #15023a);
 }
 
 .back-to-main {
@@ -11,7 +11,7 @@
 
 .back-to-main:hover {
     text-decoration: none;
-    color: #15023a;
+    color: cyan;
 }
 
 .contact-header {
