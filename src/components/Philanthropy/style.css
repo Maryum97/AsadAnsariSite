@@ -3,7 +3,7 @@
 /* Styles for quotation */
 .quotation-container {
     /* background-color: teal; */
-    background-image: linear-gradient(to right, #15023a, teal, #15023a, teal, #15023a, teal, #15023a);
+    background-image: linear-gradient(to top left, #15023a, teal, #15023a, teal, #15023a, teal, #15023a);
     color: white;
     padding: 4%;
     margin-top: 100px;

@@ -1,15 +1,15 @@
 .footer-container {
     color: cyan;
     background-color: #15023a;
-    padding: 1%;
-    height: 140px;
+    padding: 0.6%;
+    height: 100px;
     text-align: center;
     font-size: 12pt;
 }
 
 footer {
-    background-color: #330b83;
-    height: 100px;
+    background-color: rgb(2, 95, 95);
+    height: 70px;
     color: cyan;
     width: 100%;
     padding: 1.5%;
@@ -27,6 +27,9 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 2%;
+    /* define grid here */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .back-to-top {
@@ -39,7 +42,7 @@ footer {
     color: white;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 960px) {
 
     .footer-container {
         height: 130px;
@@ -49,6 +52,8 @@ footer {
     footer {
         grid-template-columns: auto;
         font-size: 12pt;
+        height: 80px;
+        margin-bottom: 10px;
     }
 
     .social-medias {
