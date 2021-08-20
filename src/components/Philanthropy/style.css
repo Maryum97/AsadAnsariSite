@@ -71,7 +71,7 @@
     }
 
     .quotation {
-        font-size: 22pt;
+        font-size: 17pt;
     }
 }
 
@@ -98,6 +98,20 @@
     background-color: white;
     padding: 4%;
     border-radius: 0px 0px 20px 20px;
+    text-align: center;
+}
+
+.phil-logo-title {
+    color: teal;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.phil-logo-text {
+    font-size: 14pt;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 960px) {
@@ -105,6 +119,13 @@
         grid-template-columns: auto;
     }
 
+    .phil-item-card {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* To adjust the grid gaps regarding the spacing caused ny the empty divs */
     #card-grid-adj {
         margin-bottom: 200px;
     }
