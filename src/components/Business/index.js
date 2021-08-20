@@ -49,7 +49,7 @@ function Business() {
                     </div>
                     <div
                         className='business-logo-description'
-                        data-aos='flip-down'
+                        data-aos='slide-down'
                         data-aos-once="false"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
@@ -76,7 +76,7 @@ function Business() {
                     </div>
                     <div
                         className='business-logo-description'
-                        data-aos='flip-down'
+                        data-aos='slide-down'
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="false"
@@ -103,7 +103,7 @@ function Business() {
                     </div>
                     <div
                         className='business-logo-description'
-                        data-aos='flip-down'
+                        data-aos='slide-down'
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="false"
