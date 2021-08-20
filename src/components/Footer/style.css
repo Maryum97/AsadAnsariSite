@@ -26,7 +26,7 @@ footer {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    padding: 2%;
+    padding: 1%;
     /* define grid here */
     display: grid;
     grid-template-columns: auto auto auto auto;
