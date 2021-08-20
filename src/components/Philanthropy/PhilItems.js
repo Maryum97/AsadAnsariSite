@@ -15,7 +15,7 @@ import Logo6 from '../../assets/Philanthropy/Phil-Logos/Logo6.png';
 function PhilItems() {
     // initialise aos
     useEffect(() => {
-        Aos.init({ duration: 800 })
+        Aos.init({ duration: 600 })
     }, []);
 
     return (
@@ -23,7 +23,14 @@ function PhilItems() {
             <div className='phil-items-grid'>
                 {/* 6 cards */}
                 {/* One card starts here */}
-                <div className='phil-item-card'>
+                <div
+                    className='phil-item-card'
+                    data-aos='flip-up'
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-delay='10'
+                >
                     <div className='phil-item-container'>
                         <div
                             className='phil-logo'
@@ -37,10 +44,18 @@ function PhilItems() {
                     </div>
                 </div>
                 {/* Card ends here */}
-                <div></div>
-                <div></div>
+                <div className='phil-item-card-empty'></div>
+                <div className='phil-item-card-empty'></div>
                 {/* One card starts here */}
-                <div className='phil-item-card'>
+                <div
+                    className='phil-item-card'
+                    id='card-grid-adj'
+                    data-aos='flip-up'
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-delay='10'
+                >
                     <div className='phil-item-container'>
                         <div
                             className='phil-logo'
@@ -55,7 +70,14 @@ function PhilItems() {
                 </div>
                 {/* Card ends here */}
                 {/* One card starts here */}
-                <div className='phil-item-card'>
+                <div
+                    className='phil-item-card'
+                    data-aos='flip-up'
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-delay='10'
+                >
                     <div className='phil-item-container'>
                         <div
                             className='phil-logo'
@@ -69,10 +91,18 @@ function PhilItems() {
                     </div>
                 </div>
                 {/* Card ends here */}
-                <div></div>
-                <div></div>
+                <div className='phil-item-card-empty'></div>
+                <div className='phil-item-card-empty'></div>
                 {/* One card starts here */}
-                <div className='phil-item-card'>
+                <div
+                    className='phil-item-card'
+                    id='card-grid-adj'
+                    data-aos='flip-up'
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-delay='10'
+                >
                     <div className='phil-item-container'>
                         <div
                             className='phil-logo'
@@ -87,7 +117,14 @@ function PhilItems() {
                 </div>
                 {/* Card ends here */}
                 {/* One card starts here */}
-                <div className='phil-item-card'>
+                <div
+                    className='phil-item-card'
+                    data-aos='flip-up'
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-delay='10'
+                >
                     <div className='phil-item-container'>
                         <div
                             className='phil-logo'
@@ -101,10 +138,18 @@ function PhilItems() {
                     </div>
                 </div>
                 {/* Card ends here */}
-                <div></div>
-                <div></div>
+                <div className='phil-item-card-empty'></div>
+                <div className='phil-item-card-empty'></div>
                 {/* One card starts here */}
-                <div className='phil-item-card'>
+                <div
+                    className='phil-item-card'
+                    id='card-grid-adj'
+                    data-aos='flip-up'
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-delay='10'
+                >
                     <div className='phil-item-container'>
                         <div
                             className='phil-logo'

@@ -97,3 +97,13 @@
     padding: 4%;
     border-radius: 0px 0px 20px 20px;
 }
+
+@media screen and (max-width: 960px) {
+    .phil-items-grid {
+        grid-template-columns: auto;
+    }
+
+    #card-grid-adj {
+        margin-bottom: 200px;
+    }
+}
