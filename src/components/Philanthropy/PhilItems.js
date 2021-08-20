@@ -29,7 +29,7 @@ function PhilItems() {
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
-                    data-aos-delay='10'
+                    data-aos-delay='-10'
                 >
                     <div className='phil-item-container'>
                         <div
@@ -40,7 +40,14 @@ function PhilItems() {
                                 className='img-fluid phil-item-logo'
                             ></img>
                         </div>
-                        <div className='phil-logo-description'></div>
+                        <div className='phil-logo-description'>
+                            <h3 className='phil-logo-title'>
+                                British Asian Trust Mental Health Association
+                            </h3>
+                            <p className='phil-logo-text'>
+                                From 2018, Asad has supported the British Asian Trust on their mental health projects throughout Pakistan (Asad’s main focus), India and Bangladesh.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 {/* Card ends here */}
@@ -65,7 +72,14 @@ function PhilItems() {
                                 className='img-fluid phil-item-logo'
                             ></img>
                         </div>
-                        <div className='phil-logo-description'></div>
+                        <div className='phil-logo-description'>
+                            <h3 className='phil-logo-title'>
+                                Armed Forces Muslim Forum
+                            </h3>
+                            <p className='phil-logo-text'>
+                                Asad has provided advice on diversity-related issues to the Ministry of Defense, working to raise awareness for the Army within the Professional Services sector and The City.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 {/* Card ends here */}
@@ -87,7 +101,14 @@ function PhilItems() {
                                 className='img-fluid phil-item-logo'
                             ></img>
                         </div>
-                        <div className='phil-logo-description'></div>
+                        <div className='phil-logo-description'>
+                            <h3 className='phil-logo-title'>
+                                Graham Layton Trust (LRBT)
+                            </h3>
+                            <p className='phil-logo-text'>
+                                From 2017, Asad has volunteered to raise funding for the Graham Layton Trust in partnership with LRBT, providing hospitals and clinics in Pakistan free eye care for all citizens.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 {/* Card ends here */}
@@ -112,7 +133,14 @@ function PhilItems() {
                                 className='img-fluid phil-item-logo'
                             ></img>
                         </div>
-                        <div className='phil-logo-description'></div>
+                        <div className='phil-logo-description'>
+                            <h3 className='phil-logo-title'>
+                                Council of British Hajjis UK
+                            </h3>
+                            <p className='phil-logo-text'>
+                                A former member and current brand ambassador, Asad has been helping to end white collar crime within the Hajj and Umrah travel sector.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 {/* Card ends here */}
@@ -134,7 +162,14 @@ function PhilItems() {
                                 className='img-fluid phil-item-logo'
                             ></img>
                         </div>
-                        <div className='phil-logo-description'></div>
+                        <div className='phil-logo-description'>
+                            <h3 className='phil-logo-title'>
+                                Living the Life TV Appearance
+                            </h3>
+                            <p className='phil-logo-text'>
+                                In 2019, Asad had a TV appearance on the talk show Living the Life on Islamn Channel, talking about spirituality and faith.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 {/* Card ends here */}
@@ -159,7 +194,14 @@ function PhilItems() {
                                 className='img-fluid phil-item-logo'
                             ></img>
                         </div>
-                        <div className='phil-logo-description'></div>
+                        <div className='phil-logo-description'>
+                            <h3 className='phil-logo-title'>
+                                Deloits Muslim Network
+                            </h3>
+                            <p className='phil-logo-text'>
+                                Asad has provided educational initiatives such as diversity and inclusion networks, delivering profile building and connecting corporate companies in the UK.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 {/* Card ends here */}
