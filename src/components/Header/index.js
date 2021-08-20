@@ -15,7 +15,7 @@ function Header(props) {
         <div className='section-header'>
             <h1
                 className='heading'
-                data-aos='slide-left'
+                data-aos='slide-right'
                 data-aos-once="false"
                 data-aos-delay="100"
             >{props.heading}</h1>

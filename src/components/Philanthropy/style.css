@@ -1,0 +1,132 @@
+/* Styles in main index */
+.phil-text-container {
+    background-color: teal;
+    padding: 1%;
+    border-radius: 300px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-90deg);
+}
+
+.phil-text {
+    background-color: white;
+    padding: 16%;
+    border-radius: 300px;
+    text-align: center;
+    font-size: 18pt;
+    color: teal;
+}
+
+.philanthropy-text {
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:960px) {
+    .phil-text-container {
+        width: 60%;
+    }
+
+    .phil-text {
+        font-size: 14pt;
+    }
+}
+
+/* Styles for quotation */
+.quotation-container {
+    /* background-color: teal; */
+    background-image: linear-gradient(to top left, #15023a, teal, #15023a, teal, #15023a, teal, #15023a);
+    color: white;
+    padding: 4%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.quotation-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+
+.quot-img, .quot-text {
+    padding: 4%;
+}
+
+.quot-image {
+    border-radius: 20px;
+}
+
+.quotation {
+    font-style: italic;
+    font-size: 17pt;
+}
+
+@media screen and (max-width: 960px) {
+    .quotation-grid {
+        grid-template-columns: auto;
+    }
+
+    .quotation {
+        font-size: 17pt;
+    }
+}
+
+/* Styles for phil-card items */
+.phil-items-grid {
+    /* define grid here */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 100px;
+}
+
+.phil-item-card {
+    background-color: teal;
+    padding: 1.5%;
+    border-radius: 20px;
+}
+
+.phil-item-logo {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.phil-logo-description {
+    background-color: white;
+    padding: 4%;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+}
+
+.phil-logo-title {
+    color: teal;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.phil-logo-text {
+    font-size: 14pt;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 960px) {
+    .phil-items-grid {
+        grid-template-columns: auto;
+    }
+
+    .phil-item-card {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* To adjust the grid gaps regarding the spacing caused ny the empty divs */
+    #card-grid-adj {
+        margin-bottom: 200px;
+    }
+}

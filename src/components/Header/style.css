@@ -1,17 +1,18 @@
 .section-header {
-    background-image: linear-gradient(to right, teal, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), teal, #15023a);
     color: white;
-    width: 55vw;
     padding: 1%;
     border-radius: 30px;
+    text-align: right;
 }
 
 .heading {
-    font-size: 30pt;
+    font-size: 35pt;
+    margin-right: 7%;
 }
 
 @media screen and (max-width: 960px) {
     .heading {
-        font-size: 22pt;
+        font-size: 25pt;
     }
 }

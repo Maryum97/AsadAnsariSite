@@ -46,7 +46,9 @@ function MainPage() {
                 <Awards />
             </div>
             <br></br>
-            <ContactLink />
+            <div id='contact'>
+                <ContactLink />
+            </div>
             <br></br>
             <br></br>
             <br></br>

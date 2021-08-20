@@ -32,8 +32,6 @@ const Footer = () => {
                         >
                         </motion.img>
                     </a>
-                    <span>  </span>
-                    <span>  </span>
                     <a href='https://www.instagram.com/asadans4ri/' target='_blank'>
                         <motion.img
                             whileHover={{
@@ -45,8 +43,6 @@ const Footer = () => {
                         >
                         </motion.img>
                     </a>
-                    <span>  </span>
-                    <span>  </span>
                     <a href='https://twitter.com/asadans4ri' target='_blank'>
                         <motion.img
                             whileHover={{
@@ -58,8 +54,6 @@ const Footer = () => {
                         >
                         </motion.img>
                     </a>
-                    <span>  </span>
-                    <span>  </span>
                     <a href='https://www.linkedin.com/in/asadansari1/' target='_blank'>
                         <motion.img
                             whileHover={{

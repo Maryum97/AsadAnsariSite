@@ -1,0 +1,49 @@
+.business-text {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.business-logos-grid {
+    margin-top: 100px;
+    /* define grid here */
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 960px) {
+    .business-logos-grid {
+        grid-template-columns: auto;
+        grid-gap: 70px;
+    }
+}
+
+.business-logo, .business-logo-description {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.business-logo {
+    min-height: 7vh;
+}
+
+.business-logo-description {
+    background-color: teal;
+    padding: 2%;
+    border-radius: 20px;
+    transform: rotate(-90deg);
+}
+
+.bus-logo-desc-container {
+    background-color: white;
+    padding: 4%;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 400;
+    color: teal;
+    border-radius: 20px;
+}
