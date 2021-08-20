@@ -23,5 +23,6 @@
     .send-msg-btn {
         font-size: 15pt;
         padding: 5%;
+        transform: none;
     }
 }

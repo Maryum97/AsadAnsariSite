@@ -27,6 +27,7 @@
 @media screen and (max-width:960px) {
     .phil-text-container {
         width: 60%;
+        transform: none;
     }
 
     .phil-text {

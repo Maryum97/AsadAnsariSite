@@ -28,11 +28,11 @@
 /* Navbar logo */
 .navbar-logo {
     color: cyan;
-    font-size: 40pt;
+    font-size: 35pt;
     padding: 1%;
     text-decoration: none;
     transition: 0.4s;
-    margin-left: 30px;
+    margin-left: 65px;
 }
 
 .navbar-logo:hover {
