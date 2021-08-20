@@ -9,7 +9,7 @@
 
 footer {
     background-color: rgb(2, 95, 95);
-    height: 70px;
+    height: 80px;
     color: cyan;
     width: 100%;
     padding: 1.5%;
@@ -53,12 +53,10 @@ footer {
         grid-template-columns: auto;
         font-size: 12pt;
         height: 80px;
-        margin-bottom: 10px;
     }
 
     .social-medias {
-        width: 80%;
+        width: 100%;
         font-size: 30pt;
-        margin-top: -15pt;
     }
 }
