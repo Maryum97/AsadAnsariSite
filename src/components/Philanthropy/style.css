@@ -2,13 +2,43 @@
 
 /* Styles for quotation */
 .quotation-container {
-    background-color: teal;
+    /* background-color: teal; */
+    background-image: linear-gradient(to right, #15023a, teal, #15023a, teal, #15023a, teal, #15023a);
     color: white;
     padding: 4%;
     margin-top: 100px;
     margin-bottom: 100px;
     border-radius: 20px;
     text-align: center;
+}
+
+.quotation-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+
+.quot-img, .quot-text {
+    padding: 4%;
+}
+
+.quot-image {
+    border-radius: 20px;
+}
+
+.quotation {
+    font-style: italic;
+    font-size: 17pt;
+}
+
+@media screen and (max-width: 960px) {
+    .quotation-grid {
+        grid-template-columns: auto;
+    }
+
+    .quotation {
+        font-size: 22pt;
+    }
 }
 
 /* Styles for phil-card items */
