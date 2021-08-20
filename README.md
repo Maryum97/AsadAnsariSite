@@ -14,7 +14,11 @@ This project was successfully completed within 2 months, and the webpage was dep
 <br>
 You can find the deployed website from the link below:
 <br>
-<a href='' target='_blank'></a>
+<a href='https://asadansari.herokuapp.com/' target='_blank'>Asad Aamir Ansari Personal Profile</a>
+
+## About The App
+
+This application contains all the professional information about Asad Ansari, including his business, philanthropy, awards and achievements throughout his career. You can get in contact with Asad using the link to his contact form within the app itself, or check out the links to his social media sites.
 
 ## How To Use This App
 
