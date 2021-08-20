@@ -32,6 +32,7 @@
     padding: 1%;
     text-decoration: none;
     transition: 0.4s;
+    margin-left: 30px;
 }
 
 .navbar-logo:hover {
