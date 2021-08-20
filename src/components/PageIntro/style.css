@@ -13,14 +13,11 @@
     margin-bottom: 100px;
     text-align: center;
     padding: 0.4%;
-    /* background-color: rgba(128, 128, 128, 0.438);
-    border-radius: 10px; */
     border: none;
 }
 
 .inner-intro-content {
     padding: 2%;
-    /* border-radius: 10px; */
     border: none;
 }
 
@@ -28,9 +25,17 @@
     border-radius: 700px;
 }
 
+.img-fluid {
+    height: auto;
+}
+
 @media screen and (max-width: 960px) {
     .AsadPic {
        margin-top: 30pt;
+    }
+
+    .img-fluid {
+        height: 30vh;
     }
 }
 
