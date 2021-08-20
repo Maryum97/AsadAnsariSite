@@ -125,6 +125,10 @@
         margin-right: 5%;
     }
 
+    .phil-item-logo {
+        height: 120px;
+    }
+
     /* To adjust the grid gaps regarding the spacing caused ny the empty divs */
     #card-grid-adj {
         margin-bottom: 200px;

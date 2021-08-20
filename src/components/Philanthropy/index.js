@@ -35,6 +35,9 @@ function Philanthropy() {
                 </div>
             </div>
             <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <p
                 className='philanthropy-text'
                 data-aos='fade-in'
@@ -45,6 +48,7 @@ function Philanthropy() {
             >
                 His other philanthropic works include the following:
             </p>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
