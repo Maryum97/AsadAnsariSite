@@ -51,6 +51,9 @@ In order to view, edit or market this application through your personal machine,
 
 6. Observe the application render in your default browser, e.g. Chrome, and feel free to edit the code!
 
+<b>NOTE:</b> 
+I have used Formspree for the contact form to send out an email to Asad; the API key used in the form tags in the 'Contact' component is specific to my login details on Formspree. Therefore, in order to change the API detail, you must create your own account on <a href='https://formspree.io/' target='_blank'>formspree.io</a> to get your own API, and to receive emails from the form yourself.
+
 ## Credits
 This application was created by myself, Maryum Bokhari, and it wouldn't have been possible without the opportunity given to me by Asad Ansari, and the amazing staff employed at Mayfair IT Consultancy.
 
