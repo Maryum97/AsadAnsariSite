@@ -15,4 +15,6 @@
     margin-top: 50px;
     padding: 3%;
     font-size: 18pt;
+    transform: rotate(-270deg);
+    transition: 1s;
 }
