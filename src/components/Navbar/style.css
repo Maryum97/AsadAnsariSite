@@ -57,9 +57,9 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 7px;
+    grid-gap: 5px;
     list-style: none;
-    width: 90vw;
+    width: 100vw;
     justify-content: end;
     margin-right: 2rem;
     margin-top: -45px;
