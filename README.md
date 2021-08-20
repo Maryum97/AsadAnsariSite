@@ -7,11 +7,14 @@ This repository is covered by [![License: MIT](https://img.shields.io/badge/Lice
 
 As a web developer for Mayfair IT Consultacy, I was assigned the task of developing a webpage for the Manager and Director of the organisation, Mr Asad Ansari. Being well-versed with HTML and CSS, I decided to take up this project and use the very robust and reliable React.js technology to develop the UI/UX for this webpage.
 
-This project was successfully completed within 2 months, and the webpage was deployed on Heroku.
+This project was successfully completed within 2 months, and the webpage was deployed on Heroku. Below is a short demo:
 
--> Add image
+![Asad-Webpage-Demo-(local)](https://user-images.githubusercontent.com/73832871/130232718-67011554-2f15-4fdb-9e99-24fee7dcd659.gif)
+
 <br>
--> Add link to deployed app
+You can find the deployed website from the link below:
+<br>
+<a href='' target='_blank'></a>
 
 ## How To Use This App
 
@@ -25,7 +28,9 @@ In order to view, edit or market this application through your personal machine,
 
 > npm install
 <br>
+
 > npm start
+<br>
 
 6. Observe the application render in your default browser, e.g. Chrome, and feel free to edit the code!
 
