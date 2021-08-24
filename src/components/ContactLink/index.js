@@ -20,7 +20,7 @@ function ContactLink() {
                 <br></br>
                 <a href='/contact'>
                     <button
-                        className='btn send-msg-btn btn-primary'
+                        className='btn send-msg-btn btn-success'
                         data-aos='zoom-in'
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
