@@ -1,6 +1,6 @@
 .footer-container {
     color: cyan;
-    background-color: #15023a;
+    background-color: #fff495;
     padding: 0.6%;
     height: 100px;
     text-align: center;
@@ -8,13 +8,14 @@
 }
 
 footer {
-    background-color: rgb(2, 95, 95);
+    background-color: rgba(184, 135, 11, 0.836);
     height: 80px;
-    color: cyan;
+    color: #fff495;
     width: 100%;
     padding: 1.5%;
     text-align: center;
-    font-size: 10pt;
+    font-size: 12pt;
+    font-weight: 600;
     /* define grid here */
     display: grid;
     grid-template-columns: auto auto;
@@ -34,12 +35,12 @@ footer {
 
 .back-to-top {
     text-decoration: none;
-    color: cyan;
+    color: #fff495;
 }
 
 .back-to-top:hover {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 @media screen and (max-width: 960px) {
