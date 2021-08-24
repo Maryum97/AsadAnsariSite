@@ -4,6 +4,9 @@ import './style.css';
 // import menu-items here as a separate component
 import { MenuItems } from './MenuItems';
 
+// import images here
+import AsadLogo from '../../assets/Navbar/AsadAnsariLogo.png';
+
 // define styles here
 const myStyles = {
     navbar: {
@@ -70,7 +73,7 @@ const Navbar = () => {
                 {/* Asad Ansari logo here */}
                 <h1 className='navbar-header'>
                     <a href='/' className='navbar-logo'>
-                        <b style={{ fontWeight: '300' }}>Asad</b>Ansari
+                        <img src={AsadLogo} className='asad-logo'></img>
                     </a>
                 </h1>
 

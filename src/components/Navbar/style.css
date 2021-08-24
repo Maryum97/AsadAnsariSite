@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;
     width: 100%;
-    height: 150px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,37 +20,17 @@
 
 .navbar.active {
     padding: 1%;
-    height: 120px;
+    height: 200px;
     transition: 0.6s;
-    background-color: #15023a;
+    background-color: #f0e79b;
 }
 
-/* Navbar logo */
-.navbar-logo {
-    color: cyan;
-    font-size: 35pt;
-    padding: 1%;
-    text-decoration: none;
-    transition: 0.4s;
-    margin-left: 65px;
-}
-
-.navbar-logo:hover {
-    text-decoration: none;
-    transition: all 0.3s ease-out;
-    color: white;
-    text-shadow: 0 1px 0 rgb(112, 112, 112), 0 2px 0 rgb(112, 112, 112),
-               0 3px 0 rgb(112, 112, 112), 0 4px 0 rgb(112, 112, 112),
-               0 5px 0 rgb(112, 112, 112), 0 6px 0 rgb(112, 112, 112),
-               0 7px 0 rgb(112, 112, 112), 0 8px 0 rgb(112, 112, 112),
-               0 9px 0 rgb(112, 112, 112), 0 10px 0 rgb(112, 112, 112),
-               0 11px 0 rgb(112, 112, 112), 0 12px 0 rgb(112, 112, 112),
-               0 20px 30px rgba(0, 0, 0, 0.5);
-}
-
-.navbar-logo:active{
-    color: cyan;
-    transition: all 0.3s ease-out;
+/* Navbar logo/image */
+.asad-logo {
+    height: 140px;
+    position: fixed;
+    margin-top: -30px;
+    margin-left: 40px;
 }
 
 /* Navbar menu items */
@@ -62,7 +42,6 @@
     width: 100vw;
     justify-content: end;
     margin-right: 2rem;
-    margin-top: -45px;
     font-size: 14pt;
     animation-name: slideInRight;
     animation-duration: 1.6s;
@@ -80,8 +59,9 @@
 }
 
 .nav-link {
-    color: cyan;
+    color: darkgoldenrod;
     font-size: 16pt;
+    font-weight: 600;
     text-decoration: none;
     padding: 0.5rem 1rem;
     text-align: center;
@@ -91,7 +71,7 @@
 .nav-link:hover {
     text-decoration: none;
     color: white;
-    background-color: rgba(3, 150, 150, 0.411);
+    background-color: rgba(184, 135, 11, 0.562);
     border-radius: 10px;
     transition: all 0.3s ease-out;
 }
