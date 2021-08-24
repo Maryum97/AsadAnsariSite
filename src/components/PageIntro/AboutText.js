@@ -24,8 +24,8 @@ const AboutText = () => {
     }, []);
 
     return (
-        <div className='paragraph-container'>
-            <h2 style={{ fontSize: '35pt', color: 'teal', fontWeight: '700' }}>About Asad</h2>
+        <div className='paragraph-container' style={{ minHeight: '70vh' }}>
+            <h2 style={{ fontSize: '35pt', color: 'darkgoldenrod', fontWeight: '700' }}>About Asad</h2>
             <p className='paragraph-text'>
                 <TextTransition
                     text={TEXTS[index % TEXTS.length]}

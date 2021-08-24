@@ -39,23 +39,22 @@ const Intro = () => {
                     <br></br>
                     <div className='intro-grid card'>
                         <ImageContainer
+                            className='img-container'
                             animate={{
-                                scale: [0, 1.4, 0.8],
-                                rotate: [0, 60, -360],
+                                scale: [0, 1.3, 0.6],
                                 x: -10,
-                                y: -40,
                                 scaleX: [-1, 0, 1],
-                                scaleY: [0, 1.05]
+                                scaleY: [0, 1]
                             }}
                             transition={{
-                                duration: 2,
+                                duration: 1.5,
                                 delay: 1
                             }}
                         >
                             <img
                                 src={AsadPic}
                                 className='AsadPic img-fluid'
-                                style={{ marginLeft: 'auto', marginRight: 'auto' }}
+                                style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '-100px' }}
                             >
 
                             </img>

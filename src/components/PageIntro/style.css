@@ -1,5 +1,6 @@
 .page-intro {
     padding: 4%;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 1420px) {
@@ -95,6 +96,12 @@ h1 span span {
       opacity: 1;
       color: #15023a;
     }
+  }
+
+  .paragraph-container {
+      max-width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
   }
 
   @media screen and (max-width: 960px) {
