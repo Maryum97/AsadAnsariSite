@@ -36,7 +36,7 @@ function Awards() {
                 <div className='awards-text'>
                     <h3
                         className='awards-heading'
-                        data-aos='flip-down'
+                        data-aos='fade-in'
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="false"
@@ -46,7 +46,7 @@ function Awards() {
                     </h3>
                     <p
                         className='awards-para'
-                        data-aos='flip-up'
+                        data-aos='fade-in'
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="false"

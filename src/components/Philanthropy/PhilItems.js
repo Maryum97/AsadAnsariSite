@@ -25,7 +25,7 @@ function PhilItems() {
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
-                    data-aos='flip-up'
+                    data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
@@ -57,7 +57,7 @@ function PhilItems() {
                 <div
                     className='phil-item-card'
                     id='card-grid-adj'
-                    data-aos='flip-up'
+                    data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
@@ -86,7 +86,7 @@ function PhilItems() {
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
-                    data-aos='flip-up'
+                    data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
@@ -118,7 +118,7 @@ function PhilItems() {
                 <div
                     className='phil-item-card'
                     id='card-grid-adj'
-                    data-aos='flip-up'
+                    data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
@@ -147,7 +147,7 @@ function PhilItems() {
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
-                    data-aos='flip-up'
+                    data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
@@ -179,7 +179,7 @@ function PhilItems() {
                 <div
                     className='phil-item-card'
                     id='card-grid-adj'
-                    data-aos='flip-up'
+                    data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
