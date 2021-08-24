@@ -1,6 +1,6 @@
 /* Styles in main index */
 .phil-text-container {
-    background-color: teal;
+    background-color: #fff495;
     padding: 1%;
     border-radius: 300px;
     width: 40%;
@@ -15,7 +15,7 @@
     border-radius: 300px;
     text-align: center;
     font-size: 18pt;
-    color: teal;
+    color: rgba(184, 135, 11, 0.836);
 }
 
 .philanthropy-text {
@@ -38,8 +38,7 @@
 /* Styles for quotation */
 .quotation-container {
     /* background-color: teal; */
-    background-image: linear-gradient(to top left, #15023a, teal, #15023a, teal, #15023a, teal, #15023a);
-    color: white;
+    background-color: #fff495;
     padding: 4%;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -64,6 +63,7 @@
 .quotation {
     font-style: italic;
     font-size: 17pt;
+    color: rgba(184, 135, 11, 0.836);
 }
 
 @media screen and (max-width: 960px) {
@@ -85,7 +85,7 @@
 }
 
 .phil-item-card {
-    background-color: teal;
+    background-color: #fff495;
     padding: 1.5%;
     border-radius: 20px;
 }
@@ -103,7 +103,7 @@
 }
 
 .phil-logo-title {
-    color: teal;
+    color: rgba(184, 135, 11, 0.836);
     font-weight: 700;
     font-style: italic;
     margin-top: 30px;
@@ -113,6 +113,7 @@
 .phil-logo-text {
     font-size: 14pt;
     margin-top: 40px;
+    color: rgba(184, 135, 11, 0.836);
 }
 
 @media screen and (max-width: 960px) {

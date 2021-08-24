@@ -22,7 +22,7 @@
     padding: 1%;
     height: 200px;
     transition: 0.6s;
-    background-color: #f0e79b;
+    background-color: #fff495;
 }
 
 /* Navbar logo/image */
@@ -59,7 +59,7 @@
 }
 
 .nav-link {
-    color: darkgoldenrod;
+    color: rgba(184, 135, 11, 0.836);
     font-size: 16pt;
     font-weight: 600;
     text-decoration: none;
@@ -83,7 +83,7 @@
 
 /* Navbar icons */
 .fa-bars, .fa-times {
-    color: cyan;
+    color: rgba(184, 135, 11, 0.836);
 }
 
 .menu-icon {
@@ -141,7 +141,7 @@
 
     .menu-scrolled {
         transition: 0.6s;
-        background-color: #15023a;
+        background-color: #fff495;
     }
 
     .menu-icon {

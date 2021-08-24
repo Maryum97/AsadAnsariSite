@@ -36,7 +36,7 @@
 }
 
 .business-logo-description {
-    background-color: teal;
+    background-color: #f0e79b;
     padding: 2%;
     border-radius: 20px;
     transform: rotate(-90deg);
@@ -48,7 +48,7 @@
     text-align: center;
     font-size: 14pt;
     font-weight: 400;
-    color: teal;
+    color: rgba(184, 135, 11, 0.836);
     border-radius: 20px;
 }
 
