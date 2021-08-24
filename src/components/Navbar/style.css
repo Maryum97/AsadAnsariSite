@@ -77,7 +77,7 @@
 }
 
 .nav-link:active{
-    color: cyan;
+    color: black;
     transition: all 0.3s ease-out;
 }
 
