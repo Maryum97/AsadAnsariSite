@@ -2,7 +2,7 @@
     color: cyan;
     background-color: #fff495;
     padding: 0.6%;
-    height: 100px;
+    height: 120px;
     text-align: center;
     font-size: 12pt;
 }
@@ -27,6 +27,7 @@ footer {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     padding: 1%;
     /* define grid here */
     display: grid;
