@@ -51,8 +51,8 @@ function PhilItems() {
                     </div>
                 </div>
                 {/* Card ends here */}
-                <div className='phil-item-card-empty'></div>
-                <div className='phil-item-card-empty'></div>
+                {/* <div className='phil-item-card-empty'></div>
+                <div className='phil-item-card-empty'></div> */}
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
@@ -112,8 +112,8 @@ function PhilItems() {
                     </div>
                 </div>
                 {/* Card ends here */}
-                <div className='phil-item-card-empty'></div>
-                <div className='phil-item-card-empty'></div>
+                {/* <div className='phil-item-card-empty'></div>
+                <div className='phil-item-card-empty'></div> */}
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
@@ -173,8 +173,8 @@ function PhilItems() {
                     </div>
                 </div>
                 {/* Card ends here */}
-                <div className='phil-item-card-empty'></div>
-                <div className='phil-item-card-empty'></div>
+                {/* <div className='phil-item-card-empty'></div>
+                <div className='phil-item-card-empty'></div> */}
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
