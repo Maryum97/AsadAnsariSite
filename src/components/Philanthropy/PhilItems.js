@@ -56,7 +56,7 @@ function PhilItems() {
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
-                    id='card-grid-adj'
+                    // id='card-grid-adj'
                     data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
@@ -117,7 +117,7 @@ function PhilItems() {
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
-                    id='card-grid-adj'
+                    // id='card-grid-adj'
                     data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
@@ -178,7 +178,7 @@ function PhilItems() {
                 {/* One card starts here */}
                 <div
                     className='phil-item-card'
-                    id='card-grid-adj'
+                    // id='card-grid-adj'
                     data-aos='fade-in'
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"

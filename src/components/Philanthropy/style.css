@@ -79,13 +79,15 @@
 .phil-items-grid {
     /* define grid here */
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-gap: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .phil-item-card {
     background-color: #fff495;
-    padding: 1.5%;
+    padding: 2%;
     border-radius: 20px;
 }
 
@@ -99,6 +101,7 @@
     padding: 4%;
     border-radius: 0px 0px 20px 20px;
     text-align: center;
+    min-height: 400px;
 }
 
 .phil-logo-title {
@@ -115,6 +118,12 @@
     color: rgba(184, 135, 11, 0.836);
 }
 
+@media screen and (max-width: 1260px) {
+    .phil-items-grid {
+        grid-template-columns: auto auto;
+    }
+}
+
 @media screen and (max-width: 960px) {
     .phil-items-grid {
         grid-template-columns: auto;
@@ -127,7 +136,7 @@
     }
 
     .phil-item-logo {
-        height: 120px;
+        height: 110px;
     }
 
     /* To adjust the grid gaps regarding the spacing caused ny the empty divs */
