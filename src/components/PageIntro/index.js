@@ -14,7 +14,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 // import images here
-import AsadPic from '../../assets/About/Asad-Ansari.jpg';
+import AsadLogo from '../../assets/Navbar/AsadAnsariLogo.png';
 
 // define constants for framer motion effects here
 // parents of image
@@ -52,7 +52,7 @@ const Intro = () => {
                             }}
                         >
                             <img
-                                src={AsadPic}
+                                src={AsadLogo}
                                 className='AsadPic img-fluid'
                                 style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '-100px' }}
                             >

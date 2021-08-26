@@ -23,11 +23,8 @@
 }
 
 .AsadPic {
-    border-radius: 700px;
-}
-
-.img-fluid {
-    height: auto;
+    /* border-radius: 700px; */
+    height: 60vh;
 }
 
 @media screen and (max-width: 960px) {
