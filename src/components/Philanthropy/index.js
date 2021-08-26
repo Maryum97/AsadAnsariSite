@@ -22,7 +22,7 @@ function Philanthropy() {
             <br></br>
             <PhilQuotation />
             <br></br>
-            <div
+            {/* <div
                 className='phil-text-container'
                 data-aos='zoom-in'
                 data-aos-easing="ease-in-out"
@@ -33,11 +33,7 @@ function Philanthropy() {
                 <div className='phil-text'>
                     One of Asad's philanthropic highlights include him being the Freeman for the City of London.
                 </div>
-            </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            </div> */}
             <p
                 className='philanthropy-text'
                 data-aos='fade-in'
@@ -46,7 +42,7 @@ function Philanthropy() {
                 data-aos-once="false"
                 data-aos-delay='200'
             >
-                His other philanthropic works include the following:
+                His philanthropic works include the following:
             </p>
             <br></br>
             <br></br>
