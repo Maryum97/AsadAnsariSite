@@ -14,7 +14,7 @@
 }
 
 .business-logo {
-    min-height: 7vh;
+    min-height: 8vh;
 }
 
 @media screen and (max-width: 960px) {
@@ -39,6 +39,7 @@
     background-color: #f0e79b;
     padding: 2%;
     border-radius: 20px;
+    min-height: 40vh;
 }
 
 .bus-logo-desc-container {
@@ -49,6 +50,7 @@
     font-weight: 400;
     color: rgba(184, 135, 11, 0.836);
     border-radius: 20px;
+    min-height: 40vh;
 }
 
 @media screen and (max-width:960px) {
