@@ -44,11 +44,6 @@
     padding: 4%;
     border: none;
     transition: 1.3s;
-    /* grid for card */
-    display: grid;
-    grid-template-columns: 550px auto;
-    grid-gap: 100px;
-    column-width: auto;
 }
 
 @media screen and (max-width: 1220px) {
