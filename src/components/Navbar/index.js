@@ -5,7 +5,7 @@ import './style.css';
 import { MenuItems } from './MenuItems';
 
 // import images here
-import AsadLogo from '../../assets/Navbar/AsadAnsariLogo.png';
+import AsadLogo from '../../assets/Navbar/AsadAnsariLogo(Black).png';
 
 // define styles here
 const myStyles = {

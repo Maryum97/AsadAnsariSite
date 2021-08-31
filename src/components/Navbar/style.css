@@ -20,7 +20,7 @@
 
 .navbar.active {
     padding: 2%;
-    height: 180px;
+    height: 160px;
     transition: 0.6s;
     background-color: #fff495;
 }
@@ -59,7 +59,7 @@
 }
 
 .nav-link {
-    color: rgba(184, 135, 11, 0.836);
+    color: black;
     font-size: 16pt;
     font-weight: 600;
     text-decoration: none;
@@ -71,7 +71,7 @@
 .nav-link:hover {
     text-decoration: none;
     color: white;
-    background-color: rgba(184, 135, 11, 0.562);
+    background-color: grey;
     border-radius: 10px;
     transition: all 0.3s ease-out;
 }
@@ -83,7 +83,7 @@
 
 /* Navbar icons */
 .fa-bars, .fa-times {
-    color: rgba(184, 135, 11, 0.836);
+    color: black;
 }
 
 .menu-icon {
@@ -141,7 +141,7 @@
 
     .menu-scrolled {
         transition: 0.6s;
-        background-color: #fff495;
+        background-color: silver;
     }
 
     .menu-icon {

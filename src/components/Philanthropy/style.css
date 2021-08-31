@@ -14,7 +14,7 @@
     border-radius: 300px;
     text-align: center;
     font-size: 18pt;
-    color: rgba(184, 135, 11, 0.836);
+    color: black;
 }
 
 .philanthropy-text {
@@ -114,7 +114,7 @@
 .phil-logo-text {
     font-size: 14pt;
     margin-top: 40px;
-    color: rgba(184, 135, 11, 0.836);
+    color: black;
 }
 
 @media screen and (max-width: 1260px) {
