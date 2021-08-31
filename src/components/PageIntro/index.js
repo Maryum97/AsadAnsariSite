@@ -14,7 +14,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 // import images here
-import AsadLogo from '../../assets/Navbar/AsadAnsariLogo.png';
+import AsadLogo from '../../assets/Navbar/AsadAnsariLogo(Black).png';
 
 // define constants for framer motion effects here
 // parents of image

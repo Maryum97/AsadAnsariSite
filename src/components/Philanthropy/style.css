@@ -84,6 +84,11 @@
     margin-right: 3%;
 }
 
+.phil-item-container {
+    padding: 2%;
+    margin: -5px -5px -5px -5px;
+}
+
 .phil-item-card {
     background-color: #fff495;
     padding: 2%;
