@@ -22,7 +22,7 @@
     padding: 2%;
     height: 160px;
     transition: 0.6s;
-    background-color: #fff495;
+    background-color: rgb(214, 184, 106);
 }
 
 /* Navbar logo/image */
@@ -141,7 +141,7 @@
 
     .menu-scrolled {
         transition: 0.6s;
-        background-color: silver;
+        background-color: rgb(214, 184, 106);
     }
 
     .menu-icon {
