@@ -88,17 +88,20 @@
 .phil-item-container {
     padding: 2%;
     margin: -5px -5px -5px -5px;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .phil-item-card {
     background-color: rgb(214, 184, 106);
-    padding: 2%;
+    padding: 3%;
     border-radius: 20px;
 }
 
 .phil-item-logo {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
+    margin-top: 10px;
 }
 
 .phil-logo-description {
