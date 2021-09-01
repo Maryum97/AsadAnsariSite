@@ -1,6 +1,5 @@
 .footer-container {
-    color: cyan;
-    background-color: #fff495;
+    background-color: rgb(214, 184, 106);
     padding: 0.6%;
     height: 120px;
     text-align: center;
@@ -8,7 +7,7 @@
 }
 
 footer {
-    background-color: #c4bb71;
+    background-color: rgba(117, 86, 8, 0.836);
     height: 80px;
     color: #fff495;
     width: 100%;

@@ -1,6 +1,6 @@
 /* Styles in main index */
 .phil-text-container {
-    background-color: #fff495;
+    background-color: rgb(214, 184, 106);
     padding: 1%;
     border-radius: 300px;
     width: 40%;
@@ -37,7 +37,7 @@
 /* Styles for quotation */
 .quotation-container {
     /* background-color: teal; */
-    background-color: #fff495;
+    background-color: rgb(214, 184, 106);
     padding: 4%;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -62,7 +62,8 @@
 .quotation {
     font-style: italic;
     font-size: 17pt;
-    color: rgba(184, 135, 11, 0.836);
+    font-weight: 600;
+    color: rgba(58, 42, 3, 0.836);
 }
 
 @media screen and (max-width: 960px) {
@@ -90,7 +91,7 @@
 }
 
 .phil-item-card {
-    background-color: #fff495;
+    background-color: rgb(214, 184, 106);
     padding: 2%;
     border-radius: 20px;
 }
