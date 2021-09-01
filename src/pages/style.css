@@ -2,12 +2,12 @@
 
 /* Contact Page */
 .contact {
-    background-image: linear-gradient(to top left, #fff495, rgba(0, 0, 0, 0.3), #fff495, rgba(0, 0, 0, 0.3));
+    background-image: linear-gradient(to top left, rgb(214, 184, 106), rgba(117, 86, 8, 0.836), rgb(214, 184, 106), rgba(117, 86, 8, 0.836));
 }
 
 .back-to-main {
     text-decoration: none;
-    color: grey;
+    color: white;
     font-size: 12pt;
     font-weight: 600;
 }
@@ -20,7 +20,7 @@
 .contact-header {
     text-align: center;
     font-size: 24pt;
-    color: black;
+    color: white;
 }
 
 .contact-container {
