@@ -1,0 +1,15 @@
+.businessitem-container {
+    margin-top: 0%;
+    margin-right: 4%;
+    margin-bottom: 8%;
+    margin-left: 4%;
+}
+
+.businessitem-logo {
+    height: 50px;
+    width: auto;
+}
+
+.businessitem-content {
+    font-size: 16pt;
+}

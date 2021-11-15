@@ -1,0 +1,15 @@
+.nonprofititem-container {
+    margin-top: 8%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 12%;
+}
+
+.nonprofititem-logo {
+    width: 50%;
+    height: auto;
+}
+
+.nonprofititem-content {
+    font-size: 16pt;
+}

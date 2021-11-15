@@ -1,0 +1,31 @@
+.nonprofit-intro {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: transparent;
+
+    margin-top: 10%;
+}
+
+.nonprofit-intro .box {
+    width: 50%;
+}
+
+.nonprofit-title {
+    margin: 20%;
+    font-size: 40pt;
+}
+
+.nonprofit-quote {
+    width: 80%;
+    
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+    font-size: 16pt;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}

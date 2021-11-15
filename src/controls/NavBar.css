@@ -1,0 +1,52 @@
+.navbar-container {
+    position: fixed;
+
+    height: 80px;
+    width: 100%;
+    
+    background-color: #1a2946;
+}
+
+.navbar-logo {
+    position: absolute;
+
+    margin-top: 0.5%;
+    margin-left: 1%;
+
+    width: auto;
+    height: 80%;
+}
+.navbar-container {
+    z-index: 1;
+}
+
+.navbar-menu-wrapper {
+    display: flex;
+    
+    height: 80px;
+    
+    float: right;
+    align-items: center;
+}
+
+.navbar-menu {
+    margin-right: 14px;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items li {
+    list-style-type: none;
+}
+
+.nonprofit-contact {
+    border-radius: 10px;
+    background-color: #1f3666;
+    color: white !important;
+    border: none;
+}
+
+.nonprofit-contact:hover {
+
+}
